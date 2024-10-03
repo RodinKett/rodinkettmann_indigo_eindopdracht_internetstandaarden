@@ -1,0 +1,55 @@
+/* Begin Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #7B0A0A;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+/* Begin Copyright */
+footer div:first-child {
+    display: flex;
+    font-family: "Cormorant", serif;
+    font-weight: 500;
+    align-items: center;
+}
+
+footer div:first-child img{
+    height: 16px;
+    width: 16px;
+}
+
+/* Podcast Naam */
+footer div:nth-child(2) h2 {
+    font-family: "grenadine-mvb", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* Media-Links */
+.media-links {
+    display: flex;
+    align-items: center;
+    background-color: #4C1022;
+    border-radius: 40px;
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.media-links :first-child {
+    text-align: right;
+    font-family: "Cormorant", sans-serif;
+    font-weight: 600;
+}
+
+.media-links img {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    margin: 0px 2px;
+}

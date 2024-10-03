@@ -1,0 +1,131 @@
+/* Basis doelen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Begin Main */
+main {
+    background-image: url(../img/stenenachtergrond.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+/* Begin Populair */
+.populair {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E4DFBA;
+    border-radius: 20px;
+    height: 40em;
+    width: 25em;
+    padding-top: 1vh;
+}
+
+.populair img {
+    padding-top: 1vh;
+}
+
+h2 {
+    font-family: "Cormorant", serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+/* Begin Starting Tavern */
+.startingtavern {
+    border-radius: 20px;
+    height: 18em;
+    width: 30em;
+    margin-bottom: 10vh;
+    align-items: center;
+}
+
+.startingtavern h1 {
+    font-family: "grenadine-mvb", sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+.startingtavern h2 {
+    font-family: "grenadine-mvb", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* Begin Welkom */
+.welkom {
+    background-color: #E4DFBA;
+    border-radius: 20px;
+    height: 10em;
+    width: 30em;
+    text-align: center;
+}
+
+p {
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Begin Video */
+.video {
+    background-color: #E4DFBA;
+    border-radius: 20px;
+    height: 18em;
+    width: 30em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.video h4:first-child {
+    padding: 4px 0px;
+}
+
+h4 {
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Begin Merch */
+.merch {
+    margin-top: 2vh;
+    padding-top: 1vh;
+    background-color: #E4DFBA;
+    border-radius: 20px;
+    height: 18em;
+    width: 30em;
+    text-align: center;
+}
+
+.merch img {
+    text-align: center;
+    padding-top: 1vh;
+    height: 12em;
+    width: 15em;
+    padding-top: 1vh;
+}
+
+
+
+
+
+
+
+

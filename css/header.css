@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sura:wght@400;700&display=swap'); /* Import Sura */
+@import url("https://use.typekit.net/qav1yrl.css"); /* Import Grenadine */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap'); /* Import Cormorant */
+
+/* Begin Header */
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7B0A0A;
+}
+
+.pagina-links {
+    padding: 10px 10px; 
+    margin: 20px;       
+    background-color: #4C1022;
+    border-radius: 40px;
+}
+
+.podcast-links {
+    display: flex;
+    padding: 5px 20px;  
+    margin: 20px;       
+    background-color: #4C1022;
+    border-radius: 40px; 
+}
+
+.pagina-links a{
+    font-family: "Sura", serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    margin: 30px;       
+}
+
+.pagina-links a:hover{
+    color: black;
+}
+
+#huidige-pagina{
+    background-color: #B95844;
+}
+
+.podcast-links a {
+    padding: 10px 10px; 
+}
+
+.podcast-links img {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}

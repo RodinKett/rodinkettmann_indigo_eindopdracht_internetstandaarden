@@ -1,0 +1,80 @@
+/* Basis doelen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Begin Main */
+main {
+    background-image: url(../img/stenenachtergrond.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Linker Section Video en Merch */
+.video {
+    background-color: #E4DFBA;
+    border-radius: 20px;
+    height: 18em;
+    width: 30em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.video p, .merch p{
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.merch {
+    margin-top: 2vh;
+    padding-top: 1vh;
+    background-color: #E4DFBA;
+    border-radius: 20px;
+    height: 18em;
+    width: 30em;
+    text-align: center;
+}
+
+.merch img {
+    text-align: center;
+    padding-top: 1vh;
+    height: 12em;
+    width: 15em;
+    padding-top: 1vh;
+    border-radius: 25px;
+}
+
+/* Rechter Section */
+article {
+    background-color: #E4DFBA;
+    border-radius: 20px;
+    height: 40em;
+    width: 50em;
+    padding: 2vh 2vw;
+    text-align: center;
+}
+
+article h1 {
+    font-family: "Sura", serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 3vh;
+}
+
+article p {
+    padding-top: 3vh;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 25px;
+}

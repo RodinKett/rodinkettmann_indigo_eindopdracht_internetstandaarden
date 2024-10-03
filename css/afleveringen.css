@@ -1,0 +1,57 @@
+/* Basis doelen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Begin Main */
+main {
+    background-image: url(../img/stenenachtergrond.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3vh;
+}
+
+/* Begin Tekst Boven */
+.vraag {
+    background-color: #E4DFBA;
+    align-items: center;
+    padding: 10px 30px;
+    height: 10vh;
+    width: 50vw;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.vraag p {
+    color: black;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Begin Afbeeldingen */
+.afleveringen {
+    padding-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.afleveringen img {
+    height: 250px;
+    width: 420px;
+    cursor: pointer;
+    margin: 0px 30px;
+}
+
